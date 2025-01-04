@@ -1,12 +1,21 @@
 {
   "name": "mess_life_backend",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "This software make mess life easy",
   "main": "server.js",
   "scripts": {
     "test": "npm run test",
     "start": "node server.js",
     "dev": "nodemon server.js"
+=======
+  "description": "This helps to track monthly cost of mess users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon  server.js"
+>>>>>>> origin/main
   },
   "repository": {
     "type": "git",
@@ -17,14 +26,21 @@
     "mess_manager",
     "mess_calculation"
   ],
+<<<<<<< HEAD
   "author": "Md Sazibur Rahman",
+=======
+  "author": "MD SAZIBUR RAHMAN",
+>>>>>>> origin/main
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+<<<<<<< HEAD
     "express-async-handler": "^1.2.0",
     "joi": "^17.13.3",
+=======
+>>>>>>> origin/main
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.3"
   },
